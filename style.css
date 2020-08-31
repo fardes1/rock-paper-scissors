@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    font-family: 'Alata';
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#title {
+    padding: 10px;
+    box-shadow: 0px 0px 15px 1px;
+}
+
+.buttons {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    background-color: #b3b3b3;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 15px;
+}
+
+.button {
+    padding: 8px;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #8b8b8b;
+}
+
+#score {
+    padding: 6px;
+    background-color: #b4b4b4;
+    text-align: center;
+}
+
+#roundInfo {
+    padding: 6px;
+    background-color: #b4b4b4;
+    text-align: center;
+}
